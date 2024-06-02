@@ -289,7 +289,7 @@ export default function Home() {
                   src={ellipse}
                   height={600}
                   width={550}
-                  className="absolute top-[4800px] left-[280px]"
+                  className="absolute top-[4800px] left-[230px]"
                 />
                 <button>Download App</button>
                 <Image
@@ -303,7 +303,7 @@ export default function Home() {
                   src={whitestar}
                   height={65}
                   width={65}
-                  className="absolute top-[4730px] left-[970px]"
+                  className="absolute top-[4750px] left-[920px]"
                 />
               </div>
             </div>
@@ -311,13 +311,13 @@ export default function Home() {
               src={whitestar}
               height={52}
               width={52}
-              className="absolute top-[5030px] left-[800px] -rotate-45"
+              className="absolute top-[5100px] left-[750px] -rotate-45"
             />
             <Image
               src={bg1}
               height={400}
               width={500}
-              className="absolute top-[4800px] left-[1050px]"
+              className="absolute top-[4800px] left-[920px]"
             />
             <Image
               src={img7}
@@ -392,43 +392,43 @@ export default function Home() {
           src={bg1}
           height={400}
           width={500}
-          className="absolute top-[5px] left-[230px]"
+          className="absolute top-[5px] left-[190px]"
         />
         <Image
           src={bg2}
           height={500}
           width={500}
-          className="absolute top-[190px] left-[1050px]"
+          className="absolute top-[190px] left-[1000px]"
         />
         <Image
           src={bg1}
           height={500}
           width={600}
-          className="absolute top-[990px] left-[270px]"
+          className="absolute top-[990px] left-[230px]"
         />
         <Image
           src={bg1}
           height={500}
           width={700}
-          className="absolute top-[1700px] left-[900px]"
+          className="absolute top-[1700px] left-[850px]"
         />
         <Image
           src={bg1}
           height={500}
           width={600}
-          className="absolute top-[2500px] left-[270px]"
+          className="absolute top-[2500px] left-[240px]"
         />
         <Image
           src={bg1}
           height={600}
           width={600}
-          className="absolute top-[3400px] left-[270px]"
+          className="absolute top-[3400px] left-[240px]"
         />
         <Image
           src={bg1}
           height={400}
           width={500}
-          className="absolute top-[4490px] left-[190px]"
+          className="absolute top-[4490px] left-[150px]"
         />
         <Image
           src={star}
@@ -452,7 +452,7 @@ export default function Home() {
           src={star}
           height={48}
           width={48}
-          className="absolute top-[720px] left-[1130px] -rotate-45"
+          className="absolute top-[720px] left-[1100px] -rotate-45"
         />
         <Image
           src={star}
@@ -488,13 +488,13 @@ export default function Home() {
           src={star}
           height={65}
           width={65}
-          className="absolute top-[4020px] left-[1100px]"
+          className="absolute top-[3900px] left-[1100px]"
         />
         <Image
           src={star}
           height={65}
           width={65}
-          className="absolute top-[4600px] right-[250px]"
+          className="absolute top-[4600px] right-[200px]"
         />
         <Image
           src={star}
