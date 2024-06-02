@@ -303,7 +303,7 @@ export default function Home() {
                   src={whitestar}
                   height={65}
                   width={65}
-                  className="absolute top-[4750px] left-[920px]"
+                  className="absolute top-[4700px] left-[820px]"
                 />
               </div>
             </div>
@@ -311,13 +311,13 @@ export default function Home() {
               src={whitestar}
               height={52}
               width={52}
-              className="absolute top-[5100px] left-[750px] -rotate-45"
+              className="absolute top-[5040px] left-[700px] -rotate-45"
             />
             <Image
               src={bg1}
               height={400}
               width={500}
-              className="absolute top-[4900px] left-[920px]"
+              className="absolute top-[4700px] left-[850px]"
             />
             <Image
               src={img7}
@@ -328,7 +328,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="flex justify-center space-x-10 py-[100px]">
+        <div className="flex justify-center space-x-10 py-[100px] my-[100px]">
           <div className="flex flex-col space-y-2 cursor-pointer">
             <Image src={logo} width={120} height={50} alt="logo" />
             <div className="flex space-x-2 hover:text-[#FF5555] hover:font-bold">
