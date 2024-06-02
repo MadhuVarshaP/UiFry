@@ -186,12 +186,12 @@ export default function Home() {
                     </p>
                   </div>
                   <p className="text-gray-500 py-2">
-                    "Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                    `Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
                     ultricies. In ultrices malesuada elit mauris etiam odio.
                     Duis tristique lacus, et blandit viverra nisl velit. Sed
                     mattis rhoncus, diam suspendisse sit nunc, gravida eu.
                     Lectus eget eget ac dolor neque lorem sapien, suspendisse
-                    aliquam."
+                    aliquam.`
                   </p>
                   <Image
                     src={img6}
@@ -222,8 +222,8 @@ export default function Home() {
                   The Best Financial Accounting App Ever!
                 </p>
                 <p>
-                  “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-                  ultricies. In ultrices malesuada elit mauris."
+                  `Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                  ultricies. In ultrices malesuada elit mauris.`
                 </p>
               </div>
               <div className="w-[530px] p-5 rounded-md">
@@ -231,8 +231,8 @@ export default function Home() {
                   The Best Financial Accounting App Ever!
                 </p>
                 <p className="text-gray-500">
-                  “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-                  ultricies. In ultrices malesuada elit mauris."
+                  `Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                  ultricies. In ultrices malesuada elit mauris.`
                 </p>
               </div>
               <div className="bg-[#FF5555] text-white w-[530px] p-5 rounded-md">
@@ -240,8 +240,8 @@ export default function Home() {
                   The Best Financial Accounting App Ever!
                 </p>
                 <p>
-                  “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-                  ultricies. In ultrices malesuada elit mauris."
+                  `Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                  ultricies. In ultrices malesuada elit mauris.`
                 </p>
               </div>
               <div className="w-[530px] p-5 rounded-md">
@@ -249,8 +249,8 @@ export default function Home() {
                   The Best Financial Accounting App Ever!
                 </p>
                 <p>
-                  “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-                  ultricies. In ultrices malesuada elit mauris."
+                  `Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                  ultricies. In ultrices malesuada elit mauris.`
                 </p>
               </div>
               <div className="bg-[#FF5555] text-white w-[530px] p-5 rounded-md">
@@ -258,8 +258,8 @@ export default function Home() {
                   The Best Financial Accounting App Ever!
                 </p>
                 <p>
-                  “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-                  ultricies. In ultrices malesuada elit mauris."
+                  `Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                  ultricies. In ultrices malesuada elit mauris.`
                 </p>
               </div>
               <div className="w-[530px] p-5 rounded-md">
@@ -267,8 +267,8 @@ export default function Home() {
                   The Best Financial Accounting App Ever!
                 </p>
                 <p>
-                  “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-                  ultricies. In ultrices malesuada elit mauris."
+                  `Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                  ultricies. In ultrices malesuada elit mauris.`
                 </p>
               </div>
             </div>
