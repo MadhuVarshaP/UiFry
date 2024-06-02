@@ -80,7 +80,7 @@ export default function Home() {
                 <button>Watch Video</button>
               </div>
             </div>
-            <Image src={tag} width={550} height={300} className="m-[20px]" />
+            <Image src={tag} width={550} height={300} className="m-[20px]" alt="" />
           </div>
           <div>
             <Image src={img1} width={700} height={800} alt="image" />
@@ -289,7 +289,7 @@ export default function Home() {
                   src={ellipse}
                   height={600}
                   width={550}
-                  className="absolute top-[4950px] left-[200px]"
+                  className="absolute top-[4950px] left-[200px]" alt=""
                 />
                 <button>Download App</button>
                 <Image
@@ -302,7 +302,7 @@ export default function Home() {
                 <Image
                   src={whitestar}
                   height={65}
-                  width={65}
+                  width={65} alt=""
                   className="absolute top-[4700px] left-[820px]"
                 />
               </div>
@@ -310,13 +310,13 @@ export default function Home() {
             <Image
               src={whitestar}
               height={52}
-              width={52}
+              width={52} alt=""
               className="absolute top-[5040px] left-[700px] -rotate-45"
             />
             <Image
               src={bg1}
               height={400}
-              width={500}
+              width={500} alt=""
               className="absolute top-[4700px] left-[850px]"
             />
             <Image
@@ -392,114 +392,114 @@ export default function Home() {
           src={bg1}
           height={400}
           width={500}
-          className="absolute top-[5px] left-[190px]"
+          className="absolute top-[5px] left-[190px]" alt=""
         />
         <Image
           src={bg2}
           height={500}
           width={500}
-          className="absolute top-[190px] left-[1000px]"
+          className="absolute top-[190px] left-[1000px]" alt=""
         />
         <Image
           src={bg1}
           height={500}
           width={600}
-          className="absolute top-[990px] left-[230px]"
+          className="absolute top-[990px] left-[230px]" alt=""
         />
         <Image
           src={bg1}
           height={500}
           width={700}
-          className="absolute top-[1700px] left-[850px]"
+          className="absolute top-[1700px] left-[850px]" alt=""
         />
         <Image
           src={bg1}
           height={500}
           width={600}
-          className="absolute top-[2500px] left-[240px]"
+          className="absolute top-[2500px] left-[240px]" alt=""
         />
         <Image
           src={bg1}
           height={600}
           width={600}
-          className="absolute top-[3400px] left-[240px]"
+          className="absolute top-[3400px] left-[240px]" alt=""
         />
         <Image
           src={bg1}
           height={400}
           width={500}
-          className="absolute top-[4490px] left-[150px]"
+          className="absolute top-[4490px] left-[150px]" alt=""
         />
         <Image
           src={star}
           height={50}
-          width={50}
+          width={50} alt=""
           className="absolute top-[100px] left-[30px] rotate-45"
         />
         <Image
           src={star}
           height={65}
           width={65}
-          className="absolute top-[50px] right-[50px]"
+          className="absolute top-[50px] right-[50px]" alt=""
         />
         <Image
           src={star}
           height={52}
-          width={52}
+          width={52} alt=""
           className="absolute top-[500px] left-[350px] rotate-45"
         />
         <Image
           src={star}
           height={48}
-          width={48}
+          width={48} alt=""
           className="absolute top-[720px] left-[1100px] -rotate-45"
         />
         <Image
           src={star}
           height={50}
-          width={50}
+          width={50} alt=""
           className="absolute top-[1050px] left-[80px] rotate-45"
         />
         <Image
           src={star}
           height={65}
-          width={65}
+          width={65} alt=""
           className="absolute top-[1700px] right-[150px]"
         />
         <Image
           src={star}
           height={50}
-          width={50}
+          width={50} alt=""
           className="absolute top-[2300px] left-[800px] rotate-45"
         />
         <Image
           src={star}
           height={65}
-          width={65}
+          width={65} alt=""
           className="absolute top-[3000px] left-[1400px]"
         />
         <Image
           src={star}
           height={50}
-          width={50}
+          width={50} alt=""
           className="absolute top-[3850px] left-[200px] rotate-45"
         />
         <Image
           src={star}
           height={65}
-          width={65}
+          width={65} alt=""
           className="absolute top-[3900px] left-[1100px]"
         />
         <Image
           src={star}
           height={65}
-          width={65}
+          width={65} alt=""
           className="absolute top-[4600px] right-[200px]"
         />
         <Image
           src={star}
           height={50}
-          width={50}
+          width={50} alt=""
           className="absolute top-[4780px] left-[240px] rotate-45"
         />
       </div>
