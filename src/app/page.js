@@ -2,6 +2,7 @@ import Image from "next/image";
 import logo from "./images/logo.png";
 import playbtn from "./images/playbtn.png";
 import bg1 from "./images/bg1.svg";
+import bg2 from "./images/bg2.svg";
 import img1 from "./images/img1.png";
 import img2 from "./images/img2.png";
 import img3 from "./images/img3.png";
@@ -12,6 +13,7 @@ import img7 from "./images/img7.png";
 import tag from "./images/tag.png";
 import bell from "./images/bell.png";
 import apple from "./images/apple.png";
+import star from "./images/Star.png";
 import stardesign from "./images/stardesign.png";
 import message from "./images/message.png";
 import call from "./images/call.png";
@@ -22,6 +24,7 @@ import bulletin3 from "./images/bulletin3.png";
 export default function Home() {
   return (
     <div className="bg-white text-black">
+    <div className="z-10 relative">
       <div className="flex justify-between items-center py-4 px-10">
         <Image src={logo} width={150} height={100} alt="logo" />
         <ul className="flex">
@@ -50,7 +53,7 @@ export default function Home() {
           Download
         </button>
       </div>
-      {/* <Image src={bg1} height={500} width={500} className="absolute"/> */}
+      
       <div className="flex flex-row items-center justify-center">
         <div className="w-[700px]">
           <p className="text-5xl font-black py-[10px]">
@@ -84,8 +87,8 @@ export default function Home() {
       <div className="flex flex-row items-center justify-center">
         <Image src={img2} width={700} height={800} alt="image" />
         <div className="w-[650px]">
-          <p>FEATURES</p>
-          <p class="text-3xl font-black py-[10px]">Uifry Premium</p>
+          <p className="text-[#FF5555] text-[23px]">FEATURES</p>
+          <p class="text-4xl font-black py-[10px]">Uifry Premium</p>
           <div className="my-[20px]">
             <div className="flex items-center">
               <Image src={bulletin1} height={10} width={25} alt="image" />
@@ -120,8 +123,8 @@ export default function Home() {
       </div>
       <div className="flex flex-row items-center justify-center">
         <div className="w-[650px]">
-          <p>ADVANTAGES</p>
-          <p class="text-3xl font-black py-[10px]">Why Choose Uifry?</p>
+          <p className="text-[#FF5555] text-[23px]">ADVANTAGES</p>
+          <p class="text-4xl font-black py-[10px]">Why Choose Uifry?</p>
           <div className="my-[20px]">
             <div className="flex items-center">
               <Image src={bell} height={40} width={40} alt="image" />
@@ -158,8 +161,8 @@ export default function Home() {
       </div>
       <div>
         <div className="flex flex-col justify-center items-center">
-          <p>TESTIMONIAL</p>
-          <p class="text-3xl font-black py-[10px]">
+          <p className="text-[23px]">TESTIMONIAL</p>
+          <p class="text-4xl font-black py-[10px] w-[450px] flex flex-col text-center">
             What Our Users Say About Us?
           </p>
           <div className="flex flex-row items-center justify-center">
@@ -195,14 +198,14 @@ export default function Home() {
       </div>
       <div>
         <div className="flex flex-col items-left mx-[400px]">
-          <p>FAQ</p>
-          <p class="text-3xl font-black py-[10px]">
+          <p className="text-[#FF5555] text-[23px]">FAQ</p>
+          <p class="text-4xl font-black py-[10px]">
             Frequently Asked Questions
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
           <div className="grid grid-rows-3 grid-flow-col gap-4 my-[20px]">
-            <div className="bg-[#FF5555] text-white w-[530px] p-4 rounded-md">
+            <div className="bg-[#FF5555] text-white w-[530px] p-5 rounded-md">
               <p className="font-bold text-xl">
                 The Best Financial Accounting App Ever!
               </p>
@@ -211,7 +214,7 @@ export default function Home() {
                 ultricies. In ultrices malesuada elit mauris."
               </p>
             </div>
-            <div className="w-[530px] p-4 rounded-md">
+            <div className="w-[530px] p-5 rounded-md">
               <p className="font-bold text-xl">
                 The Best Financial Accounting App Ever!
               </p>
@@ -220,7 +223,7 @@ export default function Home() {
                 ultricies. In ultrices malesuada elit mauris."
               </p>
             </div>
-            <div className="bg-[#FF5555] text-white w-[530px] p-4 rounded-md">
+            <div className="bg-[#FF5555] text-white w-[530px] p-5 rounded-md">
               <p className="font-bold text-xl">
                 The Best Financial Accounting App Ever!
               </p>
@@ -229,7 +232,7 @@ export default function Home() {
                 ultricies. In ultrices malesuada elit mauris."
               </p>
             </div>
-            <div className="w-[530px] p-4 rounded-md">
+            <div className="w-[530px] p-5 rounded-md">
               <p className="font-bold text-xl">
                 The Best Financial Accounting App Ever!
               </p>
@@ -238,7 +241,7 @@ export default function Home() {
                 ultricies. In ultrices malesuada elit mauris."
               </p>
             </div>
-            <div className="bg-[#FF5555] text-white w-[530px] p-4 rounded-md">
+            <div className="bg-[#FF5555] text-white w-[530px] p-5 rounded-md">
               <p className="font-bold text-xl">
                 The Best Financial Accounting App Ever!
               </p>
@@ -247,7 +250,7 @@ export default function Home() {
                 ultricies. In ultrices malesuada elit mauris."
               </p>
             </div>
-            <div className="w-[530px] p-4 rounded-md">
+            <div className="w-[530px] p-5 rounded-md">
               <p className="font-bold text-xl">
                 The Best Financial Accounting App Ever!
               </p>
@@ -262,20 +265,23 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center bg-black mx-auto w-[1100px] rounded-md my-[60px]">
         <div className="w-[1100px] text-white flex">
           <div className="flex flex-col justify-center p-[40px]">
-          <p className="text-3xl font-black py-[10px]">Ready To Get Started?</p>
-          <p>
-            Risus habitant leo egestas mauris diam eget morbi tempus vulputate.
-          </p>
-          <div className="flex justify-center items-center px-[20px] py-[8px] my-[20px] rounded-md bg-white text-black w-[230px]">
-            <button>Download App</button>
-            <Image
-              src={apple}
-              width={30}
-              height={30}
-              alt="apple"
-              className="mx-[10px]"
-            />
-          </div>
+            <p className="text-4xl font-black py-[10px]">
+              Ready To Get Started?
+            </p>
+            <p>
+              Risus habitant leo egestas mauris diam eget morbi tempus
+              vulputate.
+            </p>
+            <div className="flex justify-center items-center px-[20px] py-[8px] my-[20px] rounded-md bg-white text-black w-[230px]">
+              <button>Download App</button>
+              <Image
+                src={apple}
+                width={30}
+                height={30}
+                alt="apple"
+                className="mx-[10px]"
+              />
+            </div>
           </div>
           <Image src={img7} width={700} height={800} alt="image" />
         </div>
@@ -313,20 +319,34 @@ export default function Home() {
         </div>
         <div className="flex flex-col space-y-2 space-x-2 cursor-pointer">
           <p className="text-2xl font-bold">Newsletter</p>
-          <p className="hover:text-[#FF5555] hover:font-bold">Stay Up To Date</p>
+          <p className="hover:text-[#FF5555] hover:font-bold">
+            Stay Up To Date
+          </p>
           <div className="flex">
-          <input placeholder="Your Email" className="bg-gray-100 px-[20px] rounded-l-md py-[10px] my-[10px]"></input>
-          <button className="flex bg-black text-white h-[40px] p-5 rounded-r-md justify-center items-center w-[120px] my-[10px]">
-            Subscribe
-          </button>
+            <input
+              placeholder="Your Email"
+              className="bg-gray-100 px-[20px] rounded-l-md py-[10px] my-[10px]"
+            ></input>
+            <button className="flex bg-black text-white h-[40px] p-5 rounded-r-md justify-center items-center w-[120px] my-[10px]">
+              Subscribe
+            </button>
           </div>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center">
-      <div className="border-t-2 border-gray-300 w-[900px] p-[30px]">
-        <p className="flex justify-center">Copyright 2022 Uifry.com All Rights Reserved</p>
+        <div className="border-t-2 border-gray-300 w-[900px] p-[30px]">
+          <p className="flex justify-center">
+            Copyright 2022 Uifry.com All Rights Reserved
+          </p>
+        </div>
       </div>
       </div>
+      <div>
+        <Image src={bg1} height={500} width={500} className="absolute top-4 left-[220px]"/>
+        <Image src={bg2} height={500} width={500} className="absolute"/>
+        <Image src={star} height={500} width={500} className="absolute"/>
+      </div>
+
     </div>
   );
 }
