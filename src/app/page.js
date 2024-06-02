@@ -11,7 +11,7 @@ import img5 from "./images/img5.png";
 import img6 from "./images/img6.png";
 import img7 from "./images/img7.png";
 import tag from "./images/tag.png";
-import ellipse from "./images/ellipse.png";
+import ellipse from "./images/ellipse.svg";
 import bell from "./images/bell.png";
 import apple from "./images/apple.png";
 import star from "./images/Star.png";
@@ -274,7 +274,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center bg-black mx-auto w-[1100px] rounded-md my-[60px]">
+        <div className="flex flex-col items-center justify-center bg-black mx-auto w-[1100px] rounded-md mt-[60px]">
           <div className="w-[1100px] text-white flex">
             <div className="flex flex-col justify-center p-[40px]">
               <p className="text-4xl font-black py-[10px]">
@@ -289,7 +289,7 @@ export default function Home() {
                   src={ellipse}
                   height={600}
                   width={550}
-                  className="absolute top-[4800px] left-[230px]"
+                  className="absolute top-[4950px] left-[200px]"
                 />
                 <button>Download App</button>
                 <Image
@@ -317,7 +317,7 @@ export default function Home() {
               src={bg1}
               height={400}
               width={500}
-              className="absolute top-[4800px] left-[920px]"
+              className="absolute top-[4900px] left-[920px]"
             />
             <Image
               src={img7}
